@@ -75,6 +75,6 @@ class RoosterDatesTests: XCTestCase
         
         XCTAssertEqual(friday17April2015.roosterMonday(), monday13April2015, "The roosterMonday was not the 13th")
         
-        XCTAssertEqual(saturday18April2015.roosterMonday(), monday20April2015, "The roosterMonday was not the 13th")
+        XCTAssertEqual(saturday18April2015.roosterMonday(), monday20April2015, "The roosterMonday was not the 20th")
     }
 }
