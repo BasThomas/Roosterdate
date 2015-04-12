@@ -48,7 +48,7 @@ class RoosterDatesTests: XCTestCase
         super.tearDown()
     }
     
-    func validDays()
+    func testValidDays()
     {
         XCTAssertTrue(sunday12April2015.isDay(.Sunday), "Was not sunday")
         XCTAssertTrue(monday13April2015.isDay(.Monday), "Was not monday")
